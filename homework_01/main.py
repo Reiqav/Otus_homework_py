@@ -46,5 +46,7 @@ def filter_numbers(number_list, filter_type):
         return [number for number in number_list if number % 2 == 0]
     if (filter_type == PRIME):
         for number in number_list:
-            if (is_prime(number) == True):
+            if (is_prime(number) == False):
+                break
+            else:
                 return number
