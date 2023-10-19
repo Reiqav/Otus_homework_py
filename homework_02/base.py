@@ -8,6 +8,7 @@
       что топлива достаточно для преодоления переданной дистанции (вплоть до полного расхода), 
       и изменяет количество оставшегося топлива, иначе выкидывает исключение `exceptions.NotEnoughFuel`
 """
+
 from abc import ABC
 
 from homework_02.exceptions import LowFuelError, NotEnoughFuel

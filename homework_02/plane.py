@@ -8,6 +8,7 @@
     - объявите метод `remove_all_cargo`, который обнуляет значение `cargo` и возвращает значение `cargo`, которое было до обнуления
 """
 
+
 from homework_02.base import Vehicle
 from homework_02.exceptions import CargoOverload
 
