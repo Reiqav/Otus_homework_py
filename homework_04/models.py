@@ -44,11 +44,6 @@ class User(Base):
         uselist=True,
     )
 
-    def __str__(self):
-        return f"User(id = {self.id}, username={self.username!r}, email = {self.email})"
-
-    def __repr__(self):
-        return str(self)
 
 
 class Post(Base):
@@ -72,9 +67,3 @@ class Post(Base):
         back_populates="posts",
         uselist=False
     )
-
-    def __str__(self):
-        return f"Post(id = {self.id}, title={self.title!r})"
-
-    def __repr__(self):
-        return str(self)
