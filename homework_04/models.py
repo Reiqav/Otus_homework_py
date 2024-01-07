@@ -45,7 +45,6 @@ class User(Base):
     )
 
 
-
 class Post(Base):
     __tablename__ = "posts"
     title = Column(String(100), nullable=False, unique=True)
